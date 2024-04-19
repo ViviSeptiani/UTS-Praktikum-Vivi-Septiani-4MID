@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+#TentangFilm {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+img[alt="Private Bodyguards Poster"] {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+#cast {
+    font-size: 14px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.actor-image,
+.actris-image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+}
+
+.Actor,
+.Actris {
+    background-color: aqua;
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.Actor::after,
+.Actris::after {
+    content: "";
+    display: table;
+    clear: both;
+}
